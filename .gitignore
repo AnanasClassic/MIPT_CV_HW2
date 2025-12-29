@@ -1,7 +1,10 @@
 /data/
 /runs/
 /artifacts/**/checkpoint_epoch_*.pt
+/artifacts/**/checkpoint_best.pt
 /artifacts/**/overfit/
+/artifacts/profiler/
+/artifacts/profiler/**/*.pt.trace.json
 /.venv/
 __pycache__/
 *.pyc

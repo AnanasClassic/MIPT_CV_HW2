@@ -40,11 +40,11 @@ Latest results (val2017):
 - Error analysis: `artifacts/error_analysis/{classification,localization}/`.
 
 ## Artifacts
-- `artifacts/detr_2/`: checkpoints, `losses.csv`, `config.json`.
+- `artifacts/detr_2/`: `losses.csv`, `config.json`, `loss_curves.png` (checkpoints generated locally and not tracked due to size).
 - `artifacts/metrics.csv`: mAP/mAP50 table.
 - `artifacts/data_sanity/`: class counts and sample images.
 - `artifacts/detr_2/loss_curves.png`: loss plots.
-- `artifacts/profiler/detr/`: profiler traces.
+- `artifacts/profiler/detr/`: profiler traces (generated locally and not tracked due to size).
 - `artifacts/visualizations/`: predicted boxes.
 - `artifacts/error_analysis/`: classification vs localization errors.
 
