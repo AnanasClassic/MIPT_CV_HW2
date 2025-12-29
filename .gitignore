@@ -1,0 +1,11 @@
+/data/
+/runs/
+/artifacts/**/checkpoint_epoch_*.pt
+/artifacts/**/overfit/
+/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.DS_Store
