@@ -1,0 +1,4 @@
+model,split,mAP,mAP50,checkpoint
+detr,val2017,0.002937,0.008680,artifacts/detr/checkpoint_best.pt
+detr,val2017,0.005744,0.023235,artifacts/detr/checkpoint_epoch_3.pt
+detr,val2017,0.005931,0.025098,artifacts/detr_2/checkpoint_best.pt

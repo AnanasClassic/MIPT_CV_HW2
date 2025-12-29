@@ -1,0 +1,28 @@
+{
+  "data_dir": "data/coco_subset",
+  "train_split": "train2017",
+  "val_split": "val2017",
+  "epochs": 5,
+  "batch_size": 8,
+  "lr": 1e-05,
+  "weight_decay": 0.0001,
+  "seed": 42,
+  "num_classes": 10,
+  "classes": [
+    "person",
+    "car",
+    "traffic light",
+    "handbag",
+    "bottle",
+    "cup",
+    "bowl",
+    "chair",
+    "dining table",
+    "book"
+  ],
+  "model": "facebook/detr-resnet-50",
+  "pretrained": true,
+  "image_size": 512,
+  "augment": true,
+  "fp16": true
+}

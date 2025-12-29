@@ -1,0 +1,2 @@
+artifacts/detr_2/checkpoint_best.pt filter=lfs diff=lfs merge=lfs -text
+artifacts/profiler/detr/*.pt.trace.json filter=lfs diff=lfs merge=lfs -text
